@@ -1,5 +1,5 @@
 // Media query coincidente con breakpoint lg de Bootstrap
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
 
     // HEADER
     .header {
@@ -124,6 +124,34 @@
 
     // QUIENES SOMOS page
     #quienes_somos {
+
+        .nuestra_historia {
+            // background-color: red;
+            height: auto;
+            flex-wrap: wrap;
+
+            .titulo_h1_pagina {
+                // background-color: orange;
+            }
+
+            .nuestra_historia__div {
+                // background-color: $color-tres;
+                
+                max-width: 80%;
+                width: 80vw;
+                
+    
+                .parrafo {
+                    // font-size: 1.5rem;
+                    // width: 80vw;
+                    font-size: 1.75rem;
+                    // color:red;
+                    // background-color: $color-dos;
+                }
+            }
+
+        }
+
 
         .seccion_1 {
             padding: 25px 0 0 0;
@@ -377,6 +405,32 @@
     // QUIENES SOMOS page
     #quienes_somos {
 
+
+        .nuestra_historia {
+            // background-color: red;
+            height: auto;
+            flex-wrap: wrap;
+            .titulo_h1_pagina {
+                // background-color: orange;
+            }
+
+            .nuestra_historia__div {
+                // background-color: $color-tres;
+                
+                max-width: 80%;
+                width: 80vw;
+                
+    
+                .parrafo {
+                    // font-size: 1.5rem;
+                    // width: 80vw;
+                    font-size: 1.3rem;
+                    // color:red;
+                    // background-color: $color-dos;
+                }
+            }
+
+        }
         .seccion_1 {
             padding: 25px 0 0 0;
             height: auto;

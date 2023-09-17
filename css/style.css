@@ -9305,7 +9305,7 @@ a {
   text-decoration: none;
   color: #2B2D42; }
 
-#que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+#que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
   font-family: "titulos_grandes", sans-serif;
   font-size: 3rem; }
 
@@ -9325,11 +9325,11 @@ a {
   border-radius: 10px; }
 
 @media (max-width: 992px) {
-  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
     font-size: 2.5rem; } }
 
 @media (max-width: 576px) {
-  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
     font-size: 2rem; } }
 
 @-webkit-keyframes rotate-center {
@@ -9571,8 +9571,50 @@ body .navbar {
 
 /* Formato a página Quiénes Somos */
 #quienes_somos {
-  margin: auto; }
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0; }
+  #quienes_somos .nuestra_historia {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    height: 80vh;
+    position: relative; }
+    #quienes_somos .nuestra_historia::before {
+      content: '';
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+      background-size: cover;
+      opacity: 0.25;
+      z-index: -1; }
+    #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1 {
+      text-align: center;
+      padding: 1rem 0 1rem 0;
+      margin: 2rem 0 0 0;
+      max-width: 100%; }
+    #quienes_somos .nuestra_historia .nuestra_historia__div {
+      padding: 1rem 0 1rem 0;
+      max-width: 70%;
+      margin: auto; }
+      #quienes_somos .nuestra_historia .nuestra_historia__div p {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif; }
   #quienes_somos .seccion_1 {
+    padding: 0;
+    margin: 0;
+    margin: auto;
     display: block;
     text-align: center;
     height: auto; }
@@ -9580,26 +9622,30 @@ body .navbar {
       padding: 3rem 0 4rem 0; }
     #quienes_somos .seccion_1 p {
       font-size: 2rem; }
-  #quienes_somos .seccion_2 div {
-    transition: transform 0.5s; }
-    #quienes_somos .seccion_2 div .div__img {
-      margin: 0 0 2rem 0;
-      padding: 1rem 0 0 0;
-      border-radius: 15px; }
-      #quienes_somos .seccion_2 div .div__img:hover {
-        transform: scale(1.05); }
-      #quienes_somos .seccion_2 div .div__img img {
-        max-width: 25vw;
-        width: 25vw;
-        border-radius: 75px; }
-    #quienes_somos .seccion_2 div .div__titulo_imagen .titulo_imagen {
-      font-family: "titulos_grandes";
-      padding: 1rem 0 0 0;
-      font-size: 30px;
-      text-align: center; }
-    #quienes_somos .seccion_2 div .div__texto p {
-      text-align: center;
-      font-size: 20px; }
+  #quienes_somos .seccion_2 {
+    padding: 0;
+    margin: 0;
+    margin: auto; }
+    #quienes_somos .seccion_2 div {
+      transition: transform 0.5s; }
+      #quienes_somos .seccion_2 div .div__img {
+        margin: 0 0 2rem 0;
+        padding: 1rem 0 0 0;
+        border-radius: 15px; }
+        #quienes_somos .seccion_2 div .div__img:hover {
+          transform: scale(1.05); }
+        #quienes_somos .seccion_2 div .div__img img {
+          max-width: 25vw;
+          width: 25vw;
+          border-radius: 75px; }
+      #quienes_somos .seccion_2 div .div__titulo_imagen .titulo_imagen {
+        font-family: "titulos_grandes";
+        padding: 1rem 0 0 0;
+        font-size: 30px;
+        text-align: center; }
+      #quienes_somos .seccion_2 div .div__texto p {
+        text-align: center;
+        font-size: 20px; }
 
 /* Formato a hoja Trabajos Realizados */
 #trabajos_realizados {
@@ -9678,7 +9724,7 @@ body .navbar {
     height: 30rem;
     border-radius: 20px; }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .header {
     display: none;
     justify-content: space-between; }
@@ -9751,6 +9797,14 @@ body .navbar {
         width: 75vw;
         text-align: center;
         font-size: 25px; }
+  #quienes_somos .nuestra_historia {
+    height: auto;
+    flex-wrap: wrap; }
+    #quienes_somos .nuestra_historia .nuestra_historia__div {
+      max-width: 80%;
+      width: 80vw; }
+      #quienes_somos .nuestra_historia .nuestra_historia__div .parrafo {
+        font-size: 1.75rem; }
   #quienes_somos .seccion_1 {
     padding: 25px 0 0 0; }
     #quienes_somos .seccion_1 p {
@@ -9891,6 +9945,14 @@ body .navbar {
       #que_hacemos .section div .imagen_descripcion {
         width: 85vw;
         font-size: 20px; }
+  #quienes_somos .nuestra_historia {
+    height: auto;
+    flex-wrap: wrap; }
+    #quienes_somos .nuestra_historia .nuestra_historia__div {
+      max-width: 80%;
+      width: 80vw; }
+      #quienes_somos .nuestra_historia .nuestra_historia__div .parrafo {
+        font-size: 1.3rem; }
   #quienes_somos .seccion_1 {
     padding: 25px 0 0 0;
     height: auto; }
