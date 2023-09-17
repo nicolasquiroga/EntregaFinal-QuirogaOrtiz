@@ -1,0 +1,70 @@
+/* Formato Hoja Contacto */
+#contacto {
+
+
+    .section_1 {
+        max-width: 75vw;
+
+        .section_1__div1 {
+            .titulo_h1_pagina {
+                @extend %titulos-h1;
+            }
+        }
+
+        .section_1__form {
+            margin: 0;
+            padding: 2rem 0 0 2rem;
+            max-width: 100%;
+
+
+            div {
+                max-width: 100%;
+
+
+                div {
+                    .form-label {
+                        display: inline-block;
+                        margin: 0px 20px;
+                        font-weight: bold;
+                        width: 60%;
+
+                    }
+
+                    .input-group-text,
+                    .form-control {
+                        font-weight: bold;
+                        width: 60%;
+                    }
+
+                }
+
+                .btn {
+                    margin: 1rem 0 0 0;
+                }
+            }
+        }
+
+
+    }
+
+    .como_llegar {
+
+        justify-content: space-between;
+        background-color: $color-uno;
+
+        p {
+            @extend %titulos-h1;
+            font-size: 35px;
+            padding: 2rem 0 0 2rem;
+        }
+
+        iframe {
+            padding: 2rem 0 0 2rem;
+            width: 45vw;
+            height: 30rem;
+            border-radius: 20px;
+
+        }
+
+    }
+}

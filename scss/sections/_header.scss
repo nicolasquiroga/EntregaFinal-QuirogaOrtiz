@@ -1,0 +1,65 @@
+/* Formato General a todos los headers */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 15vh;
+
+    div {
+        img {
+            width: 20vh;
+            height: auto;
+            transition: transform 0.5s;
+
+            &:hover {
+                @include scale_custom(1.05);
+            }
+        }
+    }
+
+    nav {
+        text-align: right;
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+
+            li {
+                display: flex;
+                list-style: none;
+                padding: 5px 15px;
+                margin: 4px 4px;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: $color-dos;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $color-tres;
+                        @include scale_custom(1.05);
+                    }
+                }
+
+            }
+
+            .li--active {
+                background-color: $color-dos;
+                padding: 15px 15px;
+                border-radius: 5px;
+
+                a {
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+
+body .navbar {
+    display: none;
+}

@@ -1,0 +1,69 @@
+/* Formato a hoja Trabajos Realizados */
+
+#trabajos_realizados {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        img {
+            display: block;
+            width: 75vh;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .titulo_imagen {
+            font-family: "titulos_grandes";
+            margin: 10px 0px 10px 0px;
+            font-size: 25px;
+            display: inline-block;
+            width: 75vh;
+            height: auto;
+        }
+    }
+
+    .div_0 {
+        align-items: center;
+        margin: 20px 0;
+
+        .titulo_h1_pagina {
+            @extend %titulos-h1;
+            text-align: center;
+        }
+    }
+
+    .div_1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        text-align: left;
+        position: relative;
+        justify-content: space-around;
+
+        div {
+            margin: 20px;
+            padding: 10px 15px;
+            height: fit-content;
+            &:hover {
+                color: #22AAA1;
+                background-color: #2B2D42;
+                border-radius: 15px;
+                p:not(.titulo_imagen) {
+                    color: $color-uno;
+                }
+            }
+        }
+
+
+        p:not(.titulo_imagen) {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            width: 75vh;
+            padding: 10px 0;
+        }
+
+    }
+
+}
+
+

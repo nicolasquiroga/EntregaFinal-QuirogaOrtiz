@@ -1,0 +1,69 @@
+/* Formato al Index */
+#index__main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    .div_background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 90vh;
+        position: relative;
+
+        &::before {
+            content: '';
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("../resources/bg_cyq_ing_civil.avif");
+            background-size: cover;
+            opacity: 0.35;
+            z-index: -1;
+        }
+
+        .div__h1 {
+            max-width: 65vw;
+            font-family: "titulos_grandes", sans-serif;
+
+            font-size: 5rem;
+            color: $color-dos;
+            margin: 20px;
+            padding: 10px 40px;
+
+            border-radius: 15px;
+            transition: transform 2s;
+
+
+            &:hover {
+                @include scale_custom(1.4);
+
+            }
+        }
+
+        .div__p {
+            font-size: 2.5rem;
+            margin: 20px;
+            color: $color-dos;
+            padding: 0 15px;
+            width: max-content;
+            max-width: 90vw;
+
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.5s;
+
+            &:hover {
+                @include scale_custom(1.05);
+
+
+            }
+        }
+
+    }
+}

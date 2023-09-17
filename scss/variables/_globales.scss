@@ -1,0 +1,17 @@
+/* Formateo de documentos en general */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+// Formato h1 general
+h1 {
+    font-family: "titulos_grandes";
+}
+
+/* Formato a general */
+a {
+    text-decoration: none;
+    color: $color-dos;
+}
