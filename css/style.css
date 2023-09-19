@@ -9288,7 +9288,7 @@ textarea.form-control-lg {
 /* Fuente local */
 @font-face {
   font-family: "titulos_grandes";
-  src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf); }
+  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf"); }
 
 /* Fuente Web */
 /* Formateo de documentos en general */
@@ -9555,7 +9555,7 @@ body .navbar {
         height: auto; }
       #que_hacemos .section div .titulo_imagen {
         display: inline-block;
-        font-family: "titulos_grandes";
+        font-family: "titulos_grandes", sans-serif;
         font-weight: 700;
         font-size: 22px;
         padding: 5px 0;
@@ -9639,7 +9639,7 @@ body .navbar {
           width: 25vw;
           border-radius: 75px; }
       #quienes_somos .seccion_2 div .div__titulo_imagen .titulo_imagen {
-        font-family: "titulos_grandes";
+        font-family: "titulos_grandes", sans-serif;
         padding: 1rem 0 0 0;
         font-size: 30px;
         text-align: center; }
