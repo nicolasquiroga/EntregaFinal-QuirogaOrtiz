@@ -1,6 +1,6 @@
-# Pre entrega 3 - Curso de Desarrollo Web de Coderhouse
+# Entrega Final - Curso de Desarrollo Web de Coderhouse
 
-### Se realiza la pre entrega 3 del curso de Desarrollo Web. Se trata de una página web de un Estudio de Ingeniería Civil, que busca brindar información y atraer potenciales clientes.
+### Se realiza la Entrega Final del curso de Desarrollo Web. Se trata de una página web de un Estudio de Ingeniería Civil, que busca brindar información y atraer potenciales clientes.
 
 Las tecnologías que se aplicaron fueron:
 * html
