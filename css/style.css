@@ -9305,7 +9305,7 @@ a {
   text-decoration: none;
   color: #2B2D42; }
 
-#que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+#que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p.titulos_grandes {
   font-family: "titulos_grandes", sans-serif;
   font-size: 3rem; }
 
@@ -9325,11 +9325,11 @@ a {
   border-radius: 10px; }
 
 @media (max-width: 992px) {
-  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p.titulos_grandes {
     font-size: 2.5rem; } }
 
 @media (max-width: 576px) {
-  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p {
+  #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p.titulos_grandes {
     font-size: 2rem; } }
 
 @-webkit-keyframes rotate-center {
@@ -9380,6 +9380,9 @@ a {
 
 .navbar-toggler-icon {
   background-image: url("../resources/menu-boxed.svg"); }
+
+.min-vh-80 {
+  min-height: 80vh !important; }
 
 /* Formato General a todos los headers */
 .header {
@@ -9692,8 +9695,10 @@ body .navbar {
       padding: 10px 0; }
 
 /* Formato Hoja Contacto */
-#contacto .section_1 {
-  max-width: 75vw; }
+#contacto {
+  max-width: 1440px; }
+  #contacto .section_1 .section_1__div1 .titulo_h1_pagina {
+    font-size: 2.5rem; }
   #contacto .section_1 .section_1__form {
     margin: 0;
     padding: 2rem 0 0 2rem;
@@ -9711,18 +9716,16 @@ body .navbar {
         width: 60%; }
       #contacto .section_1 .section_1__form div .btn {
         margin: 1rem 0 0 0; }
-
-#contacto .como_llegar {
-  justify-content: space-between;
-  background-color: #FFFFFF; }
-  #contacto .como_llegar p {
-    font-size: 35px;
-    padding: 2rem 0 0 2rem; }
-  #contacto .como_llegar iframe {
-    padding: 2rem 0 0 2rem;
-    width: 45vw;
-    height: 30rem;
-    border-radius: 20px; }
+  #contacto .como_llegar {
+    background-color: olivedrab;
+    justify-content: space-between;
+    background-color: #FFFFFF; }
+    #contacto .como_llegar p.titulos_grandes {
+      font-size: 2.5rem; }
+    #contacto .como_llegar .iframe {
+      width: 100%;
+      height: 30rem;
+      border-radius: 20px; }
 
 @media only screen and (max-width: 992px) {
   .header {
@@ -9864,16 +9867,18 @@ body .navbar {
           #contacto .section_1 .section_1__form div div .form-check-input {
             margin: 0 0 0 7rem;
             align-self: start; }
-    #contacto .section_1 .como_llegar div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0 0 3rem 0;
-      margin: 0; }
-      #contacto .section_1 .como_llegar div iframe {
-        width: 80vw;
-        height: 25rem;
-        background-size: inherit; }
+  #contacto .como_llegar div {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #contacto .como_llegar div p.titulos_grandes {
+      text-align: center;
+      font-size: 2.2rem; }
+    #contacto .como_llegar div iframe.iframe {
+      width: 75%;
+      height: 25rem;
+      background-size: inherit; }
   .footer {
     display: flex;
     max-width: 100vw;
@@ -9990,20 +9995,19 @@ body .navbar {
           margin: 1rem 0 0 0; }
         #contacto .section_1 .section_1__form div div .form-label,
         #contacto .section_1 .section_1__form div div .input-group-text {
-          font-weight: bold; }
+          font-weight: bold;
+          width: 100%; }
         #contacto .section_1 .section_1__form div div .form-control {
-          width: 60vw; }
-    #contacto .section_1 .como_llegar {
-      margin: 2rem 0 2rem 0;
-      width: 90vw;
-      max-width: 95vw; }
-      #contacto .section_1 .como_llegar div {
-        width: 100%; }
-        #contacto .section_1 .como_llegar div p {
-          font-family: "titulos_grandes";
-          font-size: 25px;
-          text-align: center; }
-        #contacto .section_1 .como_llegar div iframe {
-          width: 95vw;
-          max-width: 100%;
-          border-radius: 15px; } }
+          width: 100%; }
+  #contacto .como_llegar div {
+    width: 100%;
+    margin: 1rem 0 1rem 0; }
+    #contacto .como_llegar div p.titulos_grandes {
+      font-family: "titulos_grandes";
+      font-size: 25px;
+      text-align: center; }
+    #contacto .como_llegar div iframe.iframe {
+      width: 95%;
+      max-width: 95%;
+      height: 15rem;
+      border-radius: 15px; } }
