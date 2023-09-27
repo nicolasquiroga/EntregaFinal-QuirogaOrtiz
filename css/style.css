@@ -9759,47 +9759,49 @@ body .navbar {
       width: max-content;
       max-width: 80vw;
       border-radius: 10px; }
-  #que_hacemos .titulo {
-    margin: 20px;
-    display: flex;
-    justify-content: center; }
-  #que_hacemos .section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "seccion__1_1" "seccion__1_2" "seccion__1_3" "seccion__2_1" "seccion__2_2" "seccion__2_3";
-    align-items: start;
-    justify-items: center;
-    max-width: 100%;
-    margin: auto;
-    width: 100vw; }
-    #que_hacemos .section div {
+  #que_hacemos {
+    margin: 0 auto 2rem auto; }
+    #que_hacemos .titulo {
+      margin: 20px;
       display: flex;
-      flex-direction: column;
-      margin: 10px 10px;
-      width: 100%;
-      align-items: center;
-      padding-top: 15px; }
-      #que_hacemos .section div .contenedor_img {
-        width: 70vw;
-        height: 35vh; }
-        #que_hacemos .section div .contenedor_img .section__img, #que_hacemos .section div .contenedor_img .section__img_xl {
-          display: block;
-          width: 100%;
-          height: auto;
-          border-radius: 10px; }
-      #que_hacemos .section div .titulo_imagen {
-        display: inline-block;
-        font-family: "titulos_grandes";
-        font-weight: 700;
-        font-size: 30px;
-        padding: 5px 0;
-        width: 95%;
-        text-align: center; }
-      #que_hacemos .section div .imagen_descripcion {
-        width: 75vw;
-        text-align: center;
-        font-size: 25px; }
+      justify-content: center; }
+    #que_hacemos .section {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "seccion__1_1" "seccion__1_2" "seccion__1_3" "seccion__2_1" "seccion__2_2" "seccion__2_3";
+      align-items: start;
+      justify-items: center;
+      max-width: 100%;
+      margin: auto;
+      width: 100vw; }
+      #que_hacemos .section div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 10px;
+        width: 100%;
+        align-items: center;
+        padding-top: 15px; }
+        #que_hacemos .section div .contenedor_img {
+          width: 70vw;
+          height: 35vh; }
+          #que_hacemos .section div .contenedor_img .section__img, #que_hacemos .section div .contenedor_img .section__img_xl {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 10px; }
+        #que_hacemos .section div .titulo_imagen {
+          display: inline-block;
+          font-family: "titulos_grandes";
+          font-weight: 700;
+          font-size: 30px;
+          padding: 5px 0;
+          width: 95%;
+          text-align: center; }
+        #que_hacemos .section div .imagen_descripcion {
+          width: 75vw;
+          text-align: center;
+          font-size: 25px; }
   #quienes_somos .nuestra_historia {
     height: auto;
     flex-wrap: wrap; }
@@ -9858,6 +9860,11 @@ body .navbar {
         display: flex;
         flex-direction: column;
         align-items: center; }
+        #contacto .section_1 .section_1__form div .form-check {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 0%; }
         #contacto .section_1 .section_1__form div div {
           width: 70vw; }
           #contacto .section_1 .section_1__form div div .form-control,
@@ -9865,8 +9872,7 @@ body .navbar {
             width: 55vw; }
           #contacto .section_1 .section_1__form div div .form-check-label,
           #contacto .section_1 .section_1__form div div .form-check-input {
-            margin: 0 0 0 7rem;
-            align-self: start; }
+            margin: 0 0.4rem 0 0; }
   #contacto .como_llegar div {
     margin: 1rem 0 0 0;
     display: flex;

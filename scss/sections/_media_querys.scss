@@ -56,6 +56,8 @@
 
     // QUÉ HACEMOS page
     #que_hacemos {
+        margin: 0 auto 2rem auto;
+
         .titulo {
             margin: 20px;
             display: flex;
@@ -243,6 +245,14 @@
                     flex-direction: column;
                     align-items: center;
 
+                    .form-check{
+                        display: flex;
+                        flex-direction: row;
+                        // align-items: center;
+                        justify-content: center;
+                        padding: 0%;
+                    }
+
                     div {
 
                         width: 70vw;
@@ -255,8 +265,8 @@
 
                         .form-check-label,
                         .form-check-input {
-                            margin: 0 0 0 7rem;
-                            align-self: start;
+                            margin: 0 0.4rem 0 0;
+                            // align-self: start;
                         }
                     }
                 }
@@ -520,6 +530,7 @@
                 padding: 1rem 0 1rem 0;
 
                 div {
+
                     div {
                         max-width: 100%;
 
@@ -553,7 +564,7 @@
                 // display: flex;
                 // flex-direction: column;
                 // align-items: center;
-                
+
 
                 p.titulos_grandes {
                     font-family: "titulos_grandes";
