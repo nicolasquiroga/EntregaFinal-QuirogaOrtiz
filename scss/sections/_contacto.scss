@@ -1,13 +1,10 @@
 /* Formato Hoja Contacto */
 #contacto {
 
-    // display: flex;
-    // flex-flow: row wrap;
-
     max-width: 1440px;
+
     .section_1 {
-        // max-width: 75vw;
-        // background-color: orangered;
+
 
         .section_1__div1 {
             .titulo_h1_pagina {
@@ -61,11 +58,9 @@
         p.titulos_grandes {
             @extend %titulos-h1;
             font-size: 2.5rem;
-            // padding: 2rem 0 0 2rem;
         }
 
         .iframe {
-            // padding: 2rem 0 0 2rem;
             width: 100%;
             height: 30rem;
             border-radius: 20px;

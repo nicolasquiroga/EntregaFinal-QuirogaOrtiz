@@ -45,10 +45,12 @@
             margin: 20px;
             padding: 10px 15px;
             height: fit-content;
+
             &:hover {
                 color: #22AAA1;
                 background-color: #2B2D42;
                 border-radius: 15px;
+
                 p:not(.titulo_imagen) {
                     color: $color-uno;
                 }
@@ -66,5 +68,3 @@
     }
 
 }
-
-

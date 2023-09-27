@@ -99,11 +99,12 @@
 
             .imagen_descripcion {
                 width: 20vw;
-                
+
             }
 
             &:hover {
                 background-color: $color-dos;
+
                 .titulo_imagen {
                     color: $color-tres;
                 }

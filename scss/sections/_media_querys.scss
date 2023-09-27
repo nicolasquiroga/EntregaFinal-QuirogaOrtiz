@@ -112,7 +112,6 @@
                 }
 
                 .imagen_descripcion {
-                    // width: 95%;
                     width: 75vw;
                     text-align: center;
                     font-size: 25px;
@@ -128,27 +127,17 @@
     #quienes_somos {
 
         .nuestra_historia {
-            // background-color: red;
             height: auto;
             flex-wrap: wrap;
 
-            .titulo_h1_pagina {
-                // background-color: orange;
-            }
-
             .nuestra_historia__div {
-                // background-color: $color-tres;
-
                 max-width: 80%;
                 width: 80vw;
 
 
                 .parrafo {
-                    // font-size: 1.5rem;
-                    // width: 80vw;
                     font-size: 1.75rem;
-                    // color:red;
-                    // background-color: $color-dos;
+
                 }
             }
 
@@ -245,10 +234,9 @@
                     flex-direction: column;
                     align-items: center;
 
-                    .form-check{
+                    .form-check {
                         display: flex;
                         flex-direction: row;
-                        // align-items: center;
                         justify-content: center;
                         padding: 0%;
                     }
@@ -266,7 +254,6 @@
                         .form-check-label,
                         .form-check-input {
                             margin: 0 0.4rem 0 0;
-                            // align-self: start;
                         }
                     }
                 }
@@ -280,10 +267,6 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                // padding: 0 0 3rem 0;
-
-
-                // margin: 0;
 
                 p.titulos_grandes {
                     text-align: center;
@@ -423,27 +406,17 @@
 
 
         .nuestra_historia {
-            // background-color: red;
             height: auto;
             flex-wrap: wrap;
 
-            .titulo_h1_pagina {
-                // background-color: orange;
-            }
 
             .nuestra_historia__div {
-                // background-color: $color-tres;
-
                 max-width: 80%;
                 width: 80vw;
 
 
                 .parrafo {
-                    // font-size: 1.5rem;
-                    // width: 80vw;
                     font-size: 1.3rem;
-                    // color:red;
-                    // background-color: $color-dos;
                 }
             }
 
@@ -554,16 +527,12 @@
         }
 
         .como_llegar {
-            // margin: 2rem 0 2rem 0;
-            // width: 90vw;
-            // max-width: 95vw;
+
 
             div {
                 width: 100%;
                 margin: 1rem 0 1rem 0;
-                // display: flex;
-                // flex-direction: column;
-                // align-items: center;
+
 
 
                 p.titulos_grandes {
