@@ -9745,7 +9745,8 @@ body .navbar {
     #index__main .div_background .div__h1 {
       max-width: 80vh;
       width: max-content;
-      font-family: "titulos_grandes";
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 12vw;
       color: #2B2D42;
       margin: 20px;
@@ -9792,7 +9793,7 @@ body .navbar {
             border-radius: 10px; }
         #que_hacemos .section div .titulo_imagen {
           display: inline-block;
-          font-family: "titulos_grandes";
+          font-family: 'Montserrat', sans-serif;
           font-weight: 700;
           font-size: 30px;
           padding: 5px 0;
@@ -9839,7 +9840,8 @@ body .navbar {
     width: 75vw;
     padding: 10px 0; }
   #trabajos_realizados div .titulo_imagen {
-    font-family: "titulos_grandes";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     margin: 10px 0px 10px 0px;
     font-size: 25px;
     display: inline-block;
@@ -9926,7 +9928,8 @@ body .navbar {
     #index__main .div_background .div__h1 {
       max-width: 75vh;
       width: max-content;
-      font-family: "titulos_grandes";
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 15vw;
       color: #2B2D42;
       margin: 20px;
@@ -9949,7 +9952,7 @@ body .navbar {
         height: 30vh; }
       #que_hacemos .section div .titulo_imagen {
         display: inline-block;
-        font-family: "titulos_grandes";
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 25px;
         padding: 5px 0; }
@@ -10009,7 +10012,8 @@ body .navbar {
     width: 100%;
     margin: 1rem 0 1rem 0; }
     #contacto .como_llegar div p.titulos_grandes {
-      font-family: "titulos_grandes";
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 25px;
       text-align: center; }
     #contacto .como_llegar div iframe.iframe {
