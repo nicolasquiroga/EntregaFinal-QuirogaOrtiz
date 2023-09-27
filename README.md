@@ -19,6 +19,14 @@ Se contempló la aplicación de SEO On-Page.
 
 Todo el código está versionado en git y subido en el repositorio de github. 
 
+En carpeta -> /resources/documentación se encuentran:
+* Identificación de Requerimientos
+* Cotización
+
+En carpeta -> /wireframes se encuentra:
+* Wireframe inicial de la página web.
+
+
 >Se puede visualizar la página en la sección inferior derecha de github "Deployments".
 
 
