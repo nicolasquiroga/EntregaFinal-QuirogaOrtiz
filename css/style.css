@@ -9876,7 +9876,7 @@ body .navbar {
           #contacto .section_1 .section_1__form div div .form-check-input {
             margin: 0 0.4rem 0 0; }
   #contacto .como_llegar div {
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center; }
