@@ -5,6 +5,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9285,11 +9286,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-/* Fuente local */
-@font-face {
-  font-family: "titulos_grandes";
-  src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf"); }
-
 /* Fuente Web */
 /* Formateo de documentos en general */
 * {
@@ -9306,7 +9302,8 @@ a {
   color: #2B2D42; }
 
 #que_hacemos .titulo .titulo_h1_pagina, #quienes_somos .nuestra_historia h1.titulo_h1_pagina, #quienes_somos .nuestra_historia .titulo_h1_pagina.h1, #quienes_somos .seccion_1 .titulo_h1_pagina, #trabajos_realizados .div_0 .titulo_h1_pagina, #contacto .section_1 .section_1__div1 .titulo_h1_pagina, #contacto .como_llegar p.titulos_grandes {
-  font-family: "titulos_grandes", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   font-size: 3rem; }
 
 #que_hacemos .section div .contenedor_img {
@@ -9478,7 +9475,8 @@ body .navbar {
       z-index: -1; }
     #index__main .div_background .div__h1 {
       max-width: 65vw;
-      font-family: "titulos_grandes", sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
       font-size: 5rem;
       color: #2B2D42;
       margin: 20px;
@@ -9558,7 +9556,7 @@ body .navbar {
         height: auto; }
       #que_hacemos .section div .titulo_imagen {
         display: inline-block;
-        font-family: "titulos_grandes", sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 22px;
         padding: 5px 0;
@@ -9642,7 +9640,8 @@ body .navbar {
           width: 25vw;
           border-radius: 75px; }
       #quienes_somos .seccion_2 div .div__titulo_imagen .titulo_imagen {
-        font-family: "titulos_grandes", sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
         padding: 1rem 0 0 0;
         font-size: 30px;
         text-align: center; }
@@ -9660,7 +9659,8 @@ body .navbar {
     height: auto;
     border-radius: 15px; }
   #trabajos_realizados div .titulo_imagen {
-    font-family: "titulos_grandes";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     margin: 10px 0px 10px 0px;
     font-size: 25px;
     display: inline-block;
